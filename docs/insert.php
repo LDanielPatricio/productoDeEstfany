@@ -21,7 +21,7 @@ $nombre = $_POST['name'];
 $tel = $_POST['phone'];
 
 $to = 'danielupla_1@hotmail.com,danielupla1@gmail.com';
-$subject='nueva consulta';
+$subject='nueva consultasa';
 	
 		
 
