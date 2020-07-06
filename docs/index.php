@@ -251,7 +251,7 @@
           S/. 159.00<small></small>
         </div>
       </div>
-      <form action="" class="m1-form lead_form" id="bui" method="post" name="bui" accept-charset="utf-8">
+      <form action="" class="m1-form lead_form" id="" method="POST" name="" accept-charset="utf-8">
         <div style="color: #fff;">Por ejemplo: Martín Farfán</div>
         <input class="field name" name="name" placeholder="Nombre completo" required type="text">
         <div style="color: #fff;">Por ejemplo: +51678024733</div>
