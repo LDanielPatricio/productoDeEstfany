@@ -4,10 +4,6 @@ date_default_timezone_set('America/Lima');
 $nombre = $_POST['name'];
 $tel = $_POST['phone'];
 
-
-$to = 'danielupla_1@hotmail.com,danielupla1@gmail.com';
-$subject='NUEVO PEDIDO DESDE LANDING ;-)';
-
 				 
 if (isset($_POST['enviar'])){
 if($nombre &&  $tel){
@@ -20,8 +16,10 @@ if(preg_match('/^(?=.{3,36}$)[a-zñA-ZÑ](\s?[a-zñA-ZÑ])*$/', $nombre)){
 $nombre = $_POST['name'];
 $tel = $_POST['phone'];
 
-$to = 'danielupla_1@hotmail.com,danielupla1@gmail.com';
-$subject='nueva consultasa';
+
+$to = 'danielupla_1@hotmail.com,estefanycc29@hotmail.com';
+$subject='NUEVO PEDIDO DESDE LANDING ;-)';
+
 	
 		
 

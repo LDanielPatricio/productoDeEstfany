@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=480">
 
   <script src="js/slick.min.js"></script>
-  <script src="script.js"></script>
+  <script src="script.js" type="text/javascript"></script>
   <script src="js/UI.js"></script>
   <script src="js/main.js"></script>
   <script src="js/jquery.min.js"></script>
@@ -20,13 +20,14 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/roboto.css">
   <script src="js/jquery.js" type="text/javascript"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   
 </head>
 
 <body class="">
-  <div class="callback-btn">
+  <!-- <div class="callback-btn">
     <img src="img/i-phone.png" alt="¡llame de nuevo a mí!">
-  </div>
+  </div> 
   <div class="callback-form hide">
     <form class="lead_form" action="">
       <h5>Por ejemplo: María Jesus</h5>
@@ -38,7 +39,7 @@
       </button>
     </form>
     <img src="img/i-cross.svg" alt="Закрыть">
-  </div>
+  </div> -->
 
   <div class="wrap">
     <section class="b1">
@@ -251,7 +252,7 @@
           S/. 159.00<small></small>
         </div>
       </div>
-      <form action="" class="m1-form lead_form" id="" method="POST" name="" accept-charset="utf-8">
+      <form action="" class="m1-form lead_form" id="buy" method="POST" name="buy" accept-charset="utf-8">
         <div style="color: #fff;">Por ejemplo: Martín Farfán</div>
         <input class="field name" name="name" placeholder="Nombre completo" required type="text">
         <div style="color: #fff;">Por ejemplo: +51678024733</div>
@@ -332,6 +333,28 @@ if (response.fbpixel.length > 0) {
     xhr.send();
 })();
 </script>
+
+
+
+<!-- GetButton.io widget -->
+<script type="text/javascript">
+    (function () {
+        var options = {
+            whatsapp: "+51929850116", // WhatsApp number
+            call: "+51929850116", // Call phone number
+            facebook: "103144041443889", // Facebook page ID
+            call_to_action: "Comprar con oferta", // Call to action
+            button_color: "#009045", // Color of button
+            position: "right", // Position may be 'right' or 'left'
+            order: "facebook,call,whatsapp", // Order of buttons
+        };
+        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+<!-- /GetButton.io widget -->
 </body>
 
 </html>
