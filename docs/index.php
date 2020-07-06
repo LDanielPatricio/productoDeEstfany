@@ -267,7 +267,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm12">
-            <p>ST. GERARDE LTD, PO Box 832, Orion Mall, Palm Street, Victoria, Mahé, Seychelles<br>
+            <p>Lima - Perú<br>
               <a href="policy_es.html" target="_blank">Privacy policy</a>
             </p>
           </div>
